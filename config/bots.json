@@ -1,0 +1,868 @@
+[
+  {
+    "id": "01",
+    "name": "직원 상담일지",
+    "category": "상담·기록",
+    "fields": [
+      "상담대상자(가명)",
+      "상담일시",
+      "상담자",
+      "상담방법(대면·유선)",
+      "상담내용",
+      "조치 필요여부와 결과"
+    ],
+    "description": "현장의 메모를 전문적인 기록으로",
+    "knowledgeRequired": false,
+    "outputSections": [
+      {
+        "id": "field-1",
+        "label": "상담 대상자"
+      },
+      {
+        "id": "field-2",
+        "label": "상담일시"
+      },
+      {
+        "id": "field-3",
+        "label": "상담자"
+      },
+      {
+        "id": "field-4",
+        "label": "상담방법"
+      },
+      {
+        "id": "field-5",
+        "label": "상담내용"
+      },
+      {
+        "id": "field-6",
+        "label": "조치 필요여부 및 상담결과"
+      },
+      {
+        "id": "field-7",
+        "label": "조치일자"
+      },
+      {
+        "id": "field-8",
+        "label": "상담 결과에 따른 조치사항"
+      }
+    ]
+  },
+  {
+    "id": "02",
+    "name": "수급자 상담일지",
+    "category": "상담·기록",
+    "fields": [
+      "상담일시",
+      "상담유형과 주제",
+      "상담대상자(가명)",
+      "수급자 상태",
+      "상담내용",
+      "조치 및 반영"
+    ],
+    "description": "현장의 메모를 전문적인 기록으로",
+    "knowledgeRequired": false,
+    "outputSections": [
+      {
+        "id": "field-1",
+        "label": "상담일시"
+      },
+      {
+        "id": "field-2",
+        "label": "상담유형"
+      },
+      {
+        "id": "field-3",
+        "label": "상담대상자"
+      },
+      {
+        "id": "field-4",
+        "label": "상담주제"
+      },
+      {
+        "id": "field-5",
+        "label": "수급자 상태"
+      },
+      {
+        "id": "field-6",
+        "label": "상담내용"
+      },
+      {
+        "id": "field-7",
+        "label": "조치 및 반영"
+      }
+    ]
+  },
+  {
+    "id": "03",
+    "name": "직원회의록",
+    "category": "회의·평가",
+    "fields": [
+      "회의일시와 장소",
+      "참석자(가명) 및 직종",
+      "회의주제",
+      "회의 메모"
+    ],
+    "description": "논의와 결과를 체계적으로 정리",
+    "knowledgeRequired": false,
+    "outputSections": [
+      {
+        "id": "field-1",
+        "label": "작성일자"
+      },
+      {
+        "id": "field-2",
+        "label": "회의시간"
+      },
+      {
+        "id": "field-3",
+        "label": "참석인원"
+      },
+      {
+        "id": "field-4",
+        "label": "회의장소"
+      },
+      {
+        "id": "field-5",
+        "label": "회의제목"
+      },
+      {
+        "id": "field-6",
+        "label": "참석자"
+      },
+      {
+        "id": "field-7",
+        "label": "회의내용"
+      },
+      {
+        "id": "field-8",
+        "label": "비고"
+      }
+    ]
+  },
+  {
+    "id": "04",
+    "name": "사례관리 회의록",
+    "category": "회의·평가",
+    "fields": [
+      "회의일시",
+      "선정사유와 문제점",
+      "참석자 및 직종",
+      "회의내용과 결과",
+      "급여 반영 내역"
+    ],
+    "description": "논의와 결과를 체계적으로 정리",
+    "knowledgeRequired": false,
+    "outputSections": [
+      {
+        "id": "field-1",
+        "label": "회의일시"
+      },
+      {
+        "id": "field-2",
+        "label": "문제점 및 선정사유"
+      },
+      {
+        "id": "field-3",
+        "label": "회의내용"
+      },
+      {
+        "id": "field-4",
+        "label": "회의결과"
+      },
+      {
+        "id": "field-5",
+        "label": "사례관리 계획 급여 반영"
+      },
+      {
+        "id": "field-6",
+        "label": "급여 반영 결과 평가"
+      },
+      {
+        "id": "field-7",
+        "label": "붙임자료"
+      }
+    ]
+  },
+  {
+    "id": "05",
+    "name": "운영위원회의록",
+    "category": "회의·평가",
+    "fields": [
+      "회의일시와 장소",
+      "참석자(가명)",
+      "안건",
+      "회의내용과 의결사항"
+    ],
+    "description": "논의와 결과를 체계적으로 정리",
+    "knowledgeRequired": false,
+    "outputSections": [
+      {
+        "id": "field-1",
+        "label": "회의일시"
+      },
+      {
+        "id": "field-2",
+        "label": "회의장소"
+      },
+      {
+        "id": "field-3",
+        "label": "참석자"
+      },
+      {
+        "id": "field-4",
+        "label": "회의안건"
+      },
+      {
+        "id": "field-5",
+        "label": "회의내용"
+      },
+      {
+        "id": "field-6",
+        "label": "의결사항"
+      }
+    ]
+  },
+  {
+    "id": "06",
+    "name": "욕구조사기록지",
+    "category": "상담·기록",
+    "fields": [
+      "소속기관 유형",
+      "수급자 상태(비식별)",
+      "항목별 체크사항",
+      "희망하는 서비스"
+    ],
+    "description": "현장의 메모를 전문적인 기록으로",
+    "knowledgeRequired": false,
+    "outputSections": [
+      {
+        "id": "field-1",
+        "label": "일반상태"
+      },
+      {
+        "id": "field-2",
+        "label": "주요 질병상태"
+      },
+      {
+        "id": "field-3",
+        "label": "신체상태"
+      },
+      {
+        "id": "field-4",
+        "label": "인지상태"
+      },
+      {
+        "id": "field-5",
+        "label": "의사소통"
+      },
+      {
+        "id": "field-6",
+        "label": "가족 및 환경상태"
+      },
+      {
+        "id": "field-7",
+        "label": "자원이용 욕구"
+      },
+      {
+        "id": "field-8",
+        "label": "종합의견"
+      }
+    ]
+  },
+  {
+    "id": "07",
+    "name": "교육일지",
+    "category": "사업·프로그램",
+    "fields": [
+      "교육일시와 장소",
+      "교육주제",
+      "참석인원",
+      "교육내용"
+    ],
+    "description": "계획부터 운영까지, 업무에 맞는 초안",
+    "knowledgeRequired": false,
+    "outputSections": [
+      {
+        "id": "field-1",
+        "label": "일시"
+      },
+      {
+        "id": "field-2",
+        "label": "교육명"
+      },
+      {
+        "id": "field-3",
+        "label": "교육방법"
+      },
+      {
+        "id": "field-4",
+        "label": "교육 내용"
+      },
+      {
+        "id": "field-5",
+        "label": "특이사항"
+      },
+      {
+        "id": "field-6",
+        "label": "붙임자료"
+      }
+    ]
+  },
+  {
+    "id": "08",
+    "name": "종사자 고충상담",
+    "category": "상담·기록",
+    "fields": [
+      "고충 상황(비식별)",
+      "궁금한 점"
+    ],
+    "description": "현장의 메모를 전문적인 기록으로",
+    "knowledgeRequired": true,
+    "outputSections": [
+      {
+        "id": "field-1",
+        "label": "상담 답변"
+      },
+      {
+        "id": "field-2",
+        "label": "관련 근거"
+      },
+      {
+        "id": "field-3",
+        "label": "후속 안내"
+      }
+    ]
+  },
+  {
+    "id": "09",
+    "name": "프로그램 계획서",
+    "category": "사업·프로그램",
+    "fields": [
+      "기관 유형과 정보",
+      "프로그램 대상",
+      "목적",
+      "활동 아이디어"
+    ],
+    "description": "계획부터 운영까지, 업무에 맞는 초안",
+    "knowledgeRequired": false,
+    "outputSections": [
+      {
+        "id": "field-1",
+        "label": "사업명"
+      },
+      {
+        "id": "field-2",
+        "label": "사업의 필요성"
+      },
+      {
+        "id": "field-3",
+        "label": "목적 및 목표"
+      },
+      {
+        "id": "field-4",
+        "label": "대상"
+      },
+      {
+        "id": "field-5",
+        "label": "세부사업내용"
+      },
+      {
+        "id": "field-6",
+        "label": "추진일정"
+      },
+      {
+        "id": "field-7",
+        "label": "평가계획"
+      },
+      {
+        "id": "field-8",
+        "label": "예산"
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "name": "평가관리",
+    "category": "회의·평가",
+    "fields": [
+      "기관 유형",
+      "궁금한 평가지표",
+      "질문 내용"
+    ],
+    "description": "논의와 결과를 체계적으로 정리",
+    "knowledgeRequired": true,
+    "outputSections": [
+      {
+        "id": "field-1",
+        "label": "평가지표 안내"
+      },
+      {
+        "id": "field-2",
+        "label": "관련 근거"
+      },
+      {
+        "id": "field-3",
+        "label": "확인사항"
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "name": "인물중심 홍보 포스터",
+    "category": "사업·프로그램",
+    "fields": [
+      "기관명",
+      "색상 톤",
+      "인물의 연령대와 특징",
+      "강조할 서비스",
+      "메시지 한 줄",
+      "공개용 문의번호"
+    ],
+    "description": "계획부터 운영까지, 업무에 맞는 초안",
+    "knowledgeRequired": false,
+    "outputSections": [
+      {
+        "id": "field-1",
+        "label": "포스터 구성"
+      },
+      {
+        "id": "field-2",
+        "label": "이미지 제작 안내"
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "name": "사업계획서",
+    "category": "사업·프로그램",
+    "fields": [
+      "기관 유형과 정보",
+      "사업 목표",
+      "사업내용",
+      "예산과 일정"
+    ],
+    "description": "계획부터 운영까지, 업무에 맞는 초안",
+    "knowledgeRequired": false,
+    "outputSections": [
+      {
+        "id": "field-1",
+        "label": "기관 개요"
+      },
+      {
+        "id": "field-2",
+        "label": "운영 목표"
+      },
+      {
+        "id": "field-3",
+        "label": "사업내용"
+      },
+      {
+        "id": "field-4",
+        "label": "추진일정"
+      },
+      {
+        "id": "field-5",
+        "label": "예산계획"
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "name": "사업평가서",
+    "category": "회의·평가",
+    "fields": [
+      "사업명",
+      "추진실적",
+      "목표 달성 결과",
+      "개선점"
+    ],
+    "description": "논의와 결과를 체계적으로 정리",
+    "knowledgeRequired": false,
+    "outputSections": [
+      {
+        "id": "field-1",
+        "label": "사업 개요"
+      },
+      {
+        "id": "field-2",
+        "label": "추진실적"
+      },
+      {
+        "id": "field-3",
+        "label": "목표 달성 평가"
+      },
+      {
+        "id": "field-4",
+        "label": "문제점 및 개선사항"
+      },
+      {
+        "id": "field-5",
+        "label": "향후계획"
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "name": "급여제공계획서",
+    "category": "사업·프로그램",
+    "fields": [
+      "급여유형",
+      "수급자의 상태와 욕구",
+      "목표",
+      "제공할 서비스"
+    ],
+    "description": "계획부터 운영까지, 업무에 맞는 초안",
+    "knowledgeRequired": false,
+    "outputSections": [
+      {
+        "id": "field-1",
+        "label": "장기요양 필요영역"
+      },
+      {
+        "id": "field-2",
+        "label": "장기요양 목표"
+      },
+      {
+        "id": "field-3",
+        "label": "필요내용"
+      },
+      {
+        "id": "field-4",
+        "label": "세부제공내용"
+      },
+      {
+        "id": "field-5",
+        "label": "종합의견"
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "name": "상태변화기록지",
+    "category": "상담·기록",
+    "fields": [
+      "관찰일시",
+      "수급자 상태 변화",
+      "제공한 도움",
+      "조치와 결과"
+    ],
+    "description": "현장의 메모를 전문적인 기록으로",
+    "knowledgeRequired": false,
+    "outputSections": [
+      {
+        "id": "field-1",
+        "label": "관찰일시"
+      },
+      {
+        "id": "field-2",
+        "label": "상태변화 내용"
+      },
+      {
+        "id": "field-3",
+        "label": "조치사항"
+      },
+      {
+        "id": "field-4",
+        "label": "결과 및 향후계획"
+      }
+    ]
+  },
+  {
+    "id": "16",
+    "name": "프로그램 운영기록지",
+    "category": "사업·프로그램",
+    "fields": [
+      "프로그램명",
+      "일시",
+      "참여인원",
+      "진행내용",
+      "참여 반응"
+    ],
+    "description": "계획부터 운영까지, 업무에 맞는 초안",
+    "knowledgeRequired": false,
+    "outputSections": [
+      {
+        "id": "field-1",
+        "label": "프로그램명"
+      },
+      {
+        "id": "field-2",
+        "label": "일시"
+      },
+      {
+        "id": "field-3",
+        "label": "참여인원"
+      },
+      {
+        "id": "field-4",
+        "label": "진행내용"
+      },
+      {
+        "id": "field-5",
+        "label": "참여 반응"
+      },
+      {
+        "id": "field-6",
+        "label": "평가 및 의견"
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "name": "가정방문형 업무수행일지",
+    "category": "사업·프로그램",
+    "fields": [
+      "방문일시",
+      "수급자 상태",
+      "제공계획과 내용",
+      "상담내용",
+      "향후계획"
+    ],
+    "description": "계획부터 운영까지, 업무에 맞는 초안",
+    "knowledgeRequired": false,
+    "outputSections": [
+      {
+        "id": "field-1",
+        "label": "기본정보"
+      },
+      {
+        "id": "field-2",
+        "label": "욕구조사"
+      },
+      {
+        "id": "field-3",
+        "label": "심신상태 및 환경변화"
+      },
+      {
+        "id": "field-4",
+        "label": "급여제공계획 및 제공내용 확인"
+      },
+      {
+        "id": "field-5",
+        "label": "인지활동형 프로그램 제공내용 확인"
+      },
+      {
+        "id": "field-6",
+        "label": "수급자·보호자 상담"
+      },
+      {
+        "id": "field-7",
+        "label": "향후계획 및 기타사항"
+      }
+    ]
+  },
+  {
+    "id": "18",
+    "name": "급여제공결과평가",
+    "category": "회의·평가",
+    "fields": [
+      "급여종류",
+      "급여제공 결과",
+      "심신상태와 환경변화",
+      "향후계획"
+    ],
+    "description": "논의와 결과를 체계적으로 정리",
+    "knowledgeRequired": false,
+    "outputSections": [
+      {
+        "id": "field-1",
+        "label": "급여제공 결과 평가"
+      },
+      {
+        "id": "field-2",
+        "label": "심신상태 및 환경변화 평가"
+      },
+      {
+        "id": "field-3",
+        "label": "향후계획"
+      }
+    ]
+  },
+  {
+    "id": "19",
+    "name": "사례회의 평가기록지",
+    "category": "회의·평가",
+    "fields": [
+      "일자별 개입내용",
+      "반영내용과 결과",
+      "종결여부"
+    ],
+    "description": "논의와 결과를 체계적으로 정리",
+    "knowledgeRequired": false,
+    "outputSections": [
+      {
+        "id": "field-1",
+        "label": "사례관리 개입내용"
+      },
+      {
+        "id": "field-2",
+        "label": "급여 반영내용"
+      },
+      {
+        "id": "field-3",
+        "label": "결과 평가"
+      },
+      {
+        "id": "field-4",
+        "label": "종결여부"
+      },
+      {
+        "id": "field-5",
+        "label": "향후계획"
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "name": "사정기록지",
+    "category": "상담·기록",
+    "fields": [
+      "수급자 기본정보(비식별)",
+      "건강·신체·인지 상태",
+      "가족과 지원체계",
+      "주요 욕구"
+    ],
+    "description": "현장의 메모를 전문적인 기록으로",
+    "knowledgeRequired": false,
+    "outputSections": [
+      {
+        "id": "field-1",
+        "label": "기본정보"
+      },
+      {
+        "id": "field-2",
+        "label": "건강상태"
+      },
+      {
+        "id": "field-3",
+        "label": "신체 및 인지상태"
+      },
+      {
+        "id": "field-4",
+        "label": "가족 및 지원체계"
+      },
+      {
+        "id": "field-5",
+        "label": "주요 욕구"
+      },
+      {
+        "id": "field-6",
+        "label": "종합사정"
+      }
+    ]
+  },
+  {
+    "id": "21",
+    "name": "직원변경 상담일지",
+    "category": "상담·기록",
+    "fields": [
+      "변경일시와 사유",
+      "변경 전후 직원(가명)",
+      "수급자·보호자 상담내용",
+      "조치사항"
+    ],
+    "description": "현장의 메모를 전문적인 기록으로",
+    "knowledgeRequired": false,
+    "outputSections": [
+      {
+        "id": "field-1",
+        "label": "상담일시"
+      },
+      {
+        "id": "field-2",
+        "label": "직원변경 사유"
+      },
+      {
+        "id": "field-3",
+        "label": "상담내용"
+      },
+      {
+        "id": "field-4",
+        "label": "수급자·보호자 의견"
+      },
+      {
+        "id": "field-5",
+        "label": "조치 및 반영"
+      }
+    ]
+  },
+  {
+    "id": "22",
+    "name": "주야간보호 업무수행일지(인지활동형)",
+    "category": "사업·프로그램",
+    "fields": [
+      "일시",
+      "심신상태",
+      "인지활동 내용",
+      "수급자·보호자 상담",
+      "향후계획"
+    ],
+    "description": "계획부터 운영까지, 업무에 맞는 초안",
+    "knowledgeRequired": false,
+    "outputSections": [
+      {
+        "id": "field-1",
+        "label": "기본정보"
+      },
+      {
+        "id": "field-2",
+        "label": "욕구조사"
+      },
+      {
+        "id": "field-3",
+        "label": "심신상태 및 환경변화"
+      },
+      {
+        "id": "field-4",
+        "label": "인지활동형 프로그램"
+      },
+      {
+        "id": "field-5",
+        "label": "수급자·보호자 상담"
+      },
+      {
+        "id": "field-6",
+        "label": "향후계획"
+      }
+    ]
+  },
+  {
+    "id": "23",
+    "name": "통합재가서비스 사례회의록",
+    "category": "회의·평가",
+    "fields": [
+      "수급자 기본정보(비식별)",
+      "이용 급여유형",
+      "사례회의 선정이유",
+      "최근 상태와 욕구",
+      "참석자 및 직종",
+      "실제 회의내용",
+      "보호자 의견"
+    ],
+    "description": "논의와 결과를 체계적으로 정리",
+    "knowledgeRequired": false,
+    "outputSections": [
+      {
+        "id": "field-1",
+        "label": "수급자 기본정보"
+      },
+      {
+        "id": "field-2",
+        "label": "사례회의 선정이유"
+      },
+      {
+        "id": "field-3",
+        "label": "상세 회의내용"
+      },
+      {
+        "id": "field-4",
+        "label": "참석자 및 의견"
+      },
+      {
+        "id": "field-5",
+        "label": "사례관리 계획"
+      }
+    ]
+  }
+]

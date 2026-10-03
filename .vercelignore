@@ -1,0 +1,8 @@
+private/**
+test/**
+test-results/**
+.env*
+.git/**
+node_modules/**
+README.md
+server.mjs
